@@ -2,8 +2,6 @@ package keyring_test
 
 import (
 	"log"
-
-	"github.com/99designs/keyring"
 )
 
 func ExampleOpen() {

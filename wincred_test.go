@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package keyring_test
@@ -5,8 +6,6 @@ package keyring_test
 import (
 	"reflect"
 	"testing"
-
-	"github.com/99designs/keyring"
 )
 
 func TestSavingCredentialsWithWinCred(t *testing.T) {

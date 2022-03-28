@@ -1,6 +1,6 @@
 // Package keyring provides a uniform API over a range of desktop credential storage engines
 //
-// See project homepage at https://github.com/99designs/keyring for more background
+// See project homepage at https://github.com/apihaus/no-keyring for more background
 package keyring
 
 import (
